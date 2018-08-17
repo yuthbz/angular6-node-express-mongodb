@@ -33,6 +33,6 @@ app.get('*', (req, res) => {
 const server = app.listen(8081, () => {
 
   const port = server.address().port;
-  console.log(`API running on localhost:${port}`)
+  console.log(`API running on localhost :${port}`)
 
 });
